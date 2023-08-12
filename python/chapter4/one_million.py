@@ -2,4 +2,4 @@
 numbers = list(range(1, 1_000_001))
 
 for i in numbers:
-	print(i)
+    print(i)
