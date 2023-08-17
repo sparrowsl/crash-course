@@ -1,0 +1,8 @@
+list
+variables
+type hinting
+functions
+loops
+dictionaries
+class
+modules
