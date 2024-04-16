@@ -4,7 +4,17 @@ export default {
     "./src/**/*.{html,js,ts,svelte}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+        "fira-sans": ["Fira Sans", "sans-serif"]
+      },
+      colors: {
+        accent: "#007F73"
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }

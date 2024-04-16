@@ -4,4 +4,4 @@ import "../app.css";
 const { children } = $props();
 </script>
 
-{@render children()}
+{@render children?.()}
