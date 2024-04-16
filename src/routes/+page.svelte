@@ -1,9 +1,9 @@
 <main class="bg-[#fafafb] min-h-[100dvh] font-fira-sans">
 	<section class="grid place-content-center min-h-[85dvh] text-center">
 		<h1 class="text-6xl text-accent mb-2">Crash Course</h1>
-		<p class="font-light max-w-xl text-center">
-			Lorem, ipsum dolor sit amet consectetur adipisicing
-			elit. Quod laudantium, id quas aliquid alias architecto
+		<p class="font-light max-w-xl text-center text-lg">
+			Bringing you up to speed in multiple languages so you can build programs
+			and tools that solve problems!
 		</p>
 		<a
 			href="/"
