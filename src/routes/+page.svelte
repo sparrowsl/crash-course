@@ -1,5 +1,5 @@
 <script>
-import "iconify-icon";
+	import "iconify-icon";
 </script>
 
 <main class="bg-[#fafafb] min-h-[100dvh] font-fira-sans">
