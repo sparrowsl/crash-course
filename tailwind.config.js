@@ -10,7 +10,8 @@ export default {
         "fira-sans": ["Fira Sans", "sans-serif"]
       },
       colors: {
-        accent: "#007F73"
+        accent: "#FAA300",
+        primary: "#FFC700"
       },
     },
   },
