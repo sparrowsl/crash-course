@@ -1,6 +1,7 @@
 <script>
-    import Navbar from "$lib/components/Navbar.svelte";
-		import "../app.css";
+// biome-ignore lint/correctness/noUnusedImports: <explanation>
+import Navbar from "$lib/components/Navbar.svelte";
+import "../app.css";
 
 // biome-ignore lint/correctness/noUnusedVariables: <explanation>
 // biome-ignore lint/correctness/noUndeclaredVariables: <explanation>

@@ -1,5 +1,5 @@
 <script>
-	import "iconify-icon";
+import "iconify-icon";
 </script>
 
 <section class="grid place-content-center min-h-[70dvh] text-center">

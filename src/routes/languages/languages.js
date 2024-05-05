@@ -7,7 +7,7 @@ export const languages = [
 		concepts: 0,
 		exercises: 0,
 		url: "/languages/javascript",
-		category: "language"
+		category: "language",
 	},
 	{
 		name: "Python",
@@ -16,7 +16,7 @@ export const languages = [
 		concepts: 0,
 		exercises: 0,
 		url: "/languages/python",
-		category: "language"
+		category: "language",
 	},
 	{
 		name: "Go",
@@ -25,7 +25,7 @@ export const languages = [
 		concepts: 0,
 		exercises: 0,
 		url: "/languages/go",
-		category: "language"
+		category: "language",
 	},
 	{
 		name: "C",
@@ -34,7 +34,7 @@ export const languages = [
 		concepts: 0,
 		exercises: 0,
 		url: "/languages/c",
-		category: "language"
+		category: "language",
 	},
 	// {
 	// 	name: "Zig",
@@ -52,7 +52,6 @@ export const languages = [
 		concepts: 0,
 		exercises: 0,
 		url: "/languages/sql",
-		category: "language"
+		category: "language",
 	},
 ];
-

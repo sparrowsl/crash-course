@@ -1,5 +1,6 @@
 <script>
 	import "iconify-icon";
+	// biome-ignore lint/correctness/noUnusedImports: <explanation>
 	import { languages } from "./languages.js";
 </script>
 
@@ -43,4 +44,5 @@
 			</figure>
 		{/each}
 	</section>
+</article>
 </article>
