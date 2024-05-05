@@ -1,7 +1,7 @@
 <script>
-import "iconify-icon";
-// biome-ignore lint/correctness/noUnusedImports: <explanation>
-import { languages } from "./languages.js";
+	import "iconify-icon";
+	// biome-ignore lint/correctness/noUnusedImports: <explanation>
+	import { languages } from "./languages.js";
 </script>
 
 <article class="mx-auto max-w-3xl py-10">
@@ -30,7 +30,7 @@ import { languages } from "./languages.js";
 					<!-- <p class="border text-sm w-fit">Status - WIP (coming soon)</p> -->
 					{#if language.supported}
 						<a
-							href="/languages"
+							href={language.url}
 							class="block w-fit text-xs ml-auto text-accent font-bold px-3 py-1 rounded-sm mt-2"
 						>
 							Get Started ->

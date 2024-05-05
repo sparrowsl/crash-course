@@ -10,7 +10,7 @@ const { children } = $props();
 
 <Navbar/>
 
-<main class="min-h-[100dvh] font-fira-sans">
+<main class="min-h-[100dvh] font-fira-sans max-w-4xl mx-auto">
 {@render children?.()}
 </main>
 

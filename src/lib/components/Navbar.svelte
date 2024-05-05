@@ -1,6 +1,4 @@
-<nav
-	class="flex justify-between items-center container mx-auto min-h-20 -mb-16"
->
+<nav class="flex justify-between items-center container mx-auto min-h-20">
 	<a href="/" class="block font-bold text-2xl text-accent">CC</a>
 
 	<ul class="flex items-center gap-5 text-sm font-fira-sans">
