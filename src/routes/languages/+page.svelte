@@ -1,7 +1,7 @@
 <script>
-import "iconify-icon";
-// biome-ignore lint/correctness/noUnusedImports: <explanation>
-import { languages } from "./languages.js";
+	import "iconify-icon";
+	// biome-ignore lint/correctness/noUnusedImports: <explanation>
+	import { languages } from "./languages.js";
 </script>
 
 <article class="mx-auto max-w-3xl py-10">
@@ -44,5 +44,4 @@ import { languages } from "./languages.js";
 			</figure>
 		{/each}
 	</section>
-</article>
 </article>
