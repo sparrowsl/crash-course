@@ -1,11 +1,11 @@
-<script></script>
+<nav
+	class="flex justify-between items-center container mx-auto min-h-20 -mb-16"
+>
+	<a href="/" class="block font-bold text-2xl text-accent">CC</a>
 
-<nav>
-	<a href="/" class="block">Crash Course</a>
-
-	<ul>
+	<ul class="flex items-center gap-5 text-sm font-fira-sans">
 		<li><a href="/">Home</a></li>
-		<li><a href="/">Overview</a></li>
-		<li><a href="/">About</a></li>
+		<li><a href="/languages">Languages</a></li>
+		<li><a href="https://github.com/sparrowsl/crash-course">GitHub</a></li>
 	</ul>
 </nav>

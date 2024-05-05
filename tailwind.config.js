@@ -10,12 +10,8 @@ export default {
         "fira-sans": ["Fira Sans", "sans-serif"]
       },
       colors: {
-        accent: "#FAA300",
-        primary: "#FFC700"
+        accent: "#007f73",
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-  ],
 }
