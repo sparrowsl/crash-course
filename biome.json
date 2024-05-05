@@ -31,9 +31,9 @@
 			"correctness": {
 				"recommended": true,
 				"noNewSymbol": "warn",
-				"noUnusedImports": "warn",
+				"noUnusedImports": "error",
 				"noUndeclaredVariables": "warn",
-				"noUnusedVariables": "warn",
+				"noUnusedVariables": "error",
 				"useHookAtTopLevel": "error"
 			},
 			"performance": {
