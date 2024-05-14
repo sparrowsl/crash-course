@@ -21,7 +21,7 @@ export const languages = [
 	{
 		name: "Go",
 		icon: { name: "simple-icons:go" },
-		supported: false,
+		supported: true,
 		concepts: 0,
 		exercises: 0,
 		url: "/languages/go",

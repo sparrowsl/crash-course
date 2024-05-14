@@ -5,11 +5,16 @@ import { languages } from "./languages.js";
 </script>
 
 <article class="mx-auto max-w-3xl py-10">
-	<h2 class="my-10 text-2xl max-w-lg mx-auto text-center">
+	<h2 class="mt-10 text-2xl max-w-lg mx-auto text-center">
 		Languages currently supported!
 	</h2>
+	<p class="italic text-center font-light">
+		<strong>Disclaimer:</strong> some text/sentences are taken from books, docs,
+		etc. Almost all the exercises are taken from different programming books with
+		different languages _(also probably different concepts)_.
+	</p>
 
-	<section class="grid grid-cols-2 gap-5">
+	<section class="grid grid-cols-2 gap-5 mt-10">
 		{#each languages as language (language.name)}
 			<figure class="bg-white shadow-md p-5 flex gap-6 items-center rounded-md">
 				<iconify-icon icon={language.icon?.name} class="text-5xl self-start">
