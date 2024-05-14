@@ -10,7 +10,7 @@ in a wide variety of software domains and used to build tools like CLI apps, Web
 This guide provides some support you need to get started with the language, with short, simple and easy to read sections
 that build on each other _(hopefully)_.
 
-> This book assumes you already have Go installed on your system.
+> This section assumes you already have Go installed on your system.
 
 Many companies have started using Go because of its simplicity, ease of use, performance, low barrier of entry, and powerful tooling.
 
@@ -31,5 +31,5 @@ func main() {
 
 write `go run main.go` on the terminal, the below should be your output.
 ```bash
-Hello, World
+ Hello, World!
 ```
