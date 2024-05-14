@@ -1,5 +1,5 @@
 <script>
-	import "iconify-icon";
+import "iconify-icon";
 </script>
 
 <nav class="flex justify-between items-center container mx-auto min-h-20">
