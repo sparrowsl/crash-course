@@ -13,3 +13,23 @@ that build on each other _(hopefully)_.
 > This book assumes you already have Go installed on your system.
 
 Many companies have started using Go because of its simplicity, ease of use, performance, low barrier of entry, and powerful tooling.
+
+
+## Hello World in Go
+
+Create a `main.go` file and add the following contents below
+```go
+// main.go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
+```
+
+write `go run main.go` on the terminal, the below should be your output.
+```bash
+Hello, World
+```
