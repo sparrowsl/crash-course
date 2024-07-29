@@ -13,24 +13,24 @@
 		"format": "biome format --write ./src"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.7.0",
-		"@sveltejs/adapter-static": "^3.0.1",
-		"@sveltejs/kit": "^2.0.0",
-		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"@biomejs/biome": "^1.8.3",
+		"@sveltejs/adapter-static": "^3.0.2",
+		"@sveltejs/kit": "^2.5.18",
+		"@sveltejs/vite-plugin-svelte": "^3.1.1",
 		"@tailwindcss/typography": "^0.5.13",
 		"autoprefixer": "^10.4.19",
-		"husky": "^9.0.11",
-		"mdsvex": "^0.11.0",
-		"postcss": "^8.4.38",
-		"svelte": "^5.0.0-next.1",
-		"svelte-check": "^3.6.0",
-		"tailwindcss": "^3.4.3",
-		"typescript": "^5.0.0",
-		"vite": "^5.0.3"
+		"husky": "^9.1.3",
+		"mdsvex": "^0.11.2",
+		"postcss": "^8.4.40",
+		"svelte": "^5.0.0-next.201",
+		"svelte-check": "^3.8.4",
+		"tailwindcss": "^3.4.7",
+		"typescript": "^5.5.4",
+		"vite": "^5.3.5"
 	},
 	"type": "module",
 	"dependencies": {
 		"iconify-icon": "^2.1.0",
-		"marked": "^12.0.2"
+		"marked": "^13.0.3"
 	}
 }
