@@ -2,7 +2,7 @@
 export const languages = [
 	{
 		name: "JavaScript",
-		icon: { name: "tabler:brand-javascript" },
+		icon: { name: "simple-icons:javascript" },
 		supported: true,
 		concepts: 0,
 		exercises: 0,
@@ -22,7 +22,7 @@ export const languages = [
 		name: "Go",
 		icon: { name: "simple-icons:go" },
 		supported: true,
-		concepts: 0,
+		concepts: 1,
 		exercises: 0,
 		url: "/languages/go",
 		category: "language",
@@ -36,15 +36,15 @@ export const languages = [
 		url: "/languages/c",
 		category: "language",
 	},
-	// {
-	// 	name: "Zig",
-	// 	icon: { name: "simple-icons:zig" },
-	// 	supported: false,
-	// 	concepts: 0,
-	// 	exercises: 0,
-	// 	url: "/languages/zig",
-	// 	category: "language"
-	// },
+	{
+		name: "Zig",
+		icon: { name: "simple-icons:zig" },
+		supported: false,
+		concepts: 0,
+		exercises: 0,
+		url: "/languages/zig",
+		category: "language",
+	},
 	{
 		name: "SQL",
 		icon: { name: "mdi:database" },
@@ -53,5 +53,14 @@ export const languages = [
 		exercises: 0,
 		url: "/languages/sql",
 		category: "language",
+	},
+	{
+		name: "Git",
+		icon: { name: "simple-icons:git" },
+		supported: false,
+		concepts: 0,
+		exercises: 0,
+		url: "/tools/git",
+		category: "tool",
 	},
 ];

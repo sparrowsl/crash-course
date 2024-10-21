@@ -1,2 +1,3 @@
-# crash_course
-exercise solutions from Python Crash Course book, in different languages.
+# Crash Course
+
+A platform for bringing you up to speed in multiple languages/tools so you can build programs and tools that solve problems!
