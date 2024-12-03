@@ -1,14 +1,13 @@
 <script>
-	import Aside from "$lib/components/Aside.svelte";
 	import TableOfContents from "./toc.md";
 
 	const { children } = $props();
 </script>
 
-<section class="grid grid-cols-[max-content_1fr] gap-10">
-	<Aside>
+<section class="grid grid-cols-[max-content_1fr] prose gap-10">
+	<aside class="mt-10 h-screen">
 		<TableOfContents />
-	</Aside>
+	</aside>
 
 	{@render children?.()}
 </section>

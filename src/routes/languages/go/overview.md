@@ -1,8 +1,4 @@
----
-title: Go (Golang)
----
-
-# {title}
+# Go (Golang)
 
 **Go** is a general-purpose programming language with clean syntax and advance features, including concurrency and a useful language
 in a wide variety of software domains and used to build tools like CLI apps, Web API, etc.
@@ -14,10 +10,10 @@ that build on each other _(hopefully)_.
 
 Many companies have started using Go because of its simplicity, ease of use, performance, low barrier of entry, and powerful tooling.
 
-
 ## Hello World in Go
 
 Create a `main.go` file and add the following contents below
+
 ```go
 // main.go
 package main
@@ -30,6 +26,7 @@ func main() {
 ```
 
 write `go run main.go` on the terminal, the below should be your output.
+
 ```bash
  Hello, World!
 ```

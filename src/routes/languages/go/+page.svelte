@@ -2,6 +2,6 @@
 	import Overview from "./overview.md";
 </script>
 
-<article class="prose">
+<article class="">
 	<Overview />
 </article>
