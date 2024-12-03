@@ -4,9 +4,7 @@ import { mdsvex } from "mdsvex";
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter({
-			fallback: "index.html",
-		}),
+		adapter: adapter({ strict: false }),
 	},
 	extensions: [".svelte", ".md"],
 	preprocess: mdsvex({ extensions: [".md"] }),

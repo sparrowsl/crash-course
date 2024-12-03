@@ -1,4 +1,3 @@
-import matter from "gray-matter";
 import { marked } from "marked";
 
 const modules = import.meta.glob("./*.md", {
@@ -11,19 +10,17 @@ const modules = import.meta.glob("./*.md", {
 export async function load({ params }) {
 	const topics = Object.keys(modules).map((file_path) => {
 		const file = modules[file_path];
-		//@ts-ignore
-		const { content } = matter(file);
+		const parsed = marked.parse(file);
 
 		return {
 			slug: file_path.split("./").pop()?.replace(".md", ""),
-			content,
+			content: parsed,
 		};
 	});
 
 	const found = topics.find((topic) => topic.slug === params.slug);
-	const parsed = marked.parse(String(found?.content), { gfm: true });
 
-	return { content: parsed };
+	return { content: found?.content };
 
 	// const post = (await import(`./${params.topic}.md`));
 	// console.log((await modules[`./${params.topic}.md`]()).default);
