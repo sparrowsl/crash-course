@@ -6,8 +6,8 @@ const config = {
 	kit: {
 		adapter: adapter(),
 	},
-	extensions: [".svelte", ".md"],
-	preprocess: mdsvex({ extensions: [".md"] }),
+	extensions: [".svelte", ".md", ".svx"],
+	preprocess: [mdsvex({ extension: ".md" })],
 };
 
 export default config;
