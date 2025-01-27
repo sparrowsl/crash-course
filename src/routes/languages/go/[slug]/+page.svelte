@@ -2,6 +2,6 @@
 	const { data } = $props();
 </script>
 
-<article class="prose">
+<article class="">
 	{@html data?.content}
 </article>
